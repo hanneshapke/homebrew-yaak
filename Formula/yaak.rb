@@ -1,23 +1,23 @@
 class Yaak < Formula
   desc "Translate natural language to bash commands using an OpenAI-compatible LLM"
   homepage "https://www.hanneshapke.com/yaak/"
-  version "0.0.9"
+  version "0.0.11"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/hanneshapke/yaak/releases/download/v0.0.9/yaak-v0.0.9-aarch64-apple-darwin.tar.gz"
-      sha256 "e543eb04f5488477d764ae1d57a6486656938a1c59afc5f483b1ef8f1adf175c"
+      url "https://github.com/hanneshapke/yaak/releases/download/v0.0.11/yaak-v0.0.11-aarch64-apple-darwin.tar.gz"
+      sha256 "ee298e7a171d46e26a2369f51e7f535cc0fa1e2197c08b03aac3e89d1c54e25f"
     else
-      url "https://github.com/hanneshapke/yaak/releases/download/v0.0.9/yaak-v0.0.9-x86_64-apple-darwin.tar.gz"
-      sha256 "78ab4b06793f299b6c486edd3232cd52474ab91efb158ce34cb42d5e6418a999"
+      url "https://github.com/hanneshapke/yaak/releases/download/v0.0.11/yaak-v0.0.11-x86_64-apple-darwin.tar.gz"
+      sha256 "3eb9bde81aaa0931e0a3c519ed486e94a331aa2865f7dba98882617624986ee7"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/hanneshapke/yaak/releases/download/v0.0.9/yaak-v0.0.9-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3123a37f853702f2ba2b635b5f725275b5b4efee363d0b1fac3e45e67750898e"
+      url "https://github.com/hanneshapke/yaak/releases/download/v0.0.11/yaak-v0.0.11-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "5369c3a9997e3a809916fe69add2cdb353be941bc94b3caff2ec0ae8c9d2a90f"
     end
   end
 
