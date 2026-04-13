@@ -7,20 +7,20 @@ class Yaak < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/hanneshapke/yaak/releases/download/v0.1.4/yaak-v0.1.4-aarch64-apple-darwin.tar.gz"
-      sha256 "551c466bd4feb798c05d504d813775a7aa123b5ac4eb61b7a097de3df0983c27"
+      sha256 "d07d7a0a73649296d3ceb25203261926276a70984555a12932cbfd2e5e18c1b4"
     else
       url "https://github.com/hanneshapke/yaak/releases/download/v0.1.4/yaak-v0.1.4-x86_64-apple-darwin.tar.gz"
-      sha256 "c363ef0459b85dca5c727dab100438897df47b54e659f1396bc6be7555e086dc"
+      sha256 "10be2ba6b43458ebcd6277aafae2dd18b5a7f059daf77cd3465f4042138fe2c6"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/hanneshapke/yaak/releases/download/v0.1.4/yaak-v0.1.4-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "48066a9710d9ed121fc0a6977a12695c889087a5086822af32b03c1a19976a80"
+      sha256 "2eb278dd440623b16a0759b234786d53cf64b491984ff299ae6cfaa60b402741"
     else
       url "https://github.com/hanneshapke/yaak/releases/download/v0.1.4/yaak-v0.1.4-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "37a12846b043654278d9b076ac9d8664bb9e72c70c0a6ee54b18508d6a58f3ae"
+      sha256 "180ade5cd7931d7757981fb8e5def8db660aae1b7b5a6b830f9a01cb03f3f4f8"
     end
   end
 
